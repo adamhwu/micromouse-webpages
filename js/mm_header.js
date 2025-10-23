@@ -1,8 +1,8 @@
 document.write(`
 <header id="ops-navbar" class="navbar navbar-expand-lg bg-primary sticky-top"  data-bs-theme="dark">
     <nav class="container-xl">
-            <a class="navbar-brand" href="./index.html">
-                <img src="./assets/images/mm_general/mm_logo_whitemaze.PNG" width="80px" alt="OPS Logo">
+            <a class="navbar-brand" href="./mm_index.html">
+                <img src="./assets/images/mm_general/mm_logo_whitemaze.PNG" width="80px" alt="Micromouse Logo">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -29,8 +29,8 @@ document.write(`
                         <ul class="dropdown-menu" data-bs-theme="light" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item" href="./schematic.html">Schematic</a></li>
                             <li><a class="dropdown-item" href="./KiCad.html">KiCad</a></li>
-                            <li><a class="dropdown-item" href="./floodfill.html">Floodfill</a></li>
-                            <li><a class="dropdown-item" href="./MM_simulation.html">Maze Simulation</a></li>
+                            <li hidden><a class="dropdown-item" href="./floodfill.html">Floodfill</a></li>
+                            <li hidden><a class="dropdown-item" href="./MM_simulation.html">Maze Simulation</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">

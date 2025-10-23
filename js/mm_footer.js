@@ -37,7 +37,7 @@ document.write(`
         Email | <a href="mailto:ieee@uci.edu">ieee@uci.edu<a>
     </li>
     <li>
-        Lead Instructor | Reza Bagheri
+        Lead Instructors | Reza Bagheri & Eaton Huang
     </li>
 </ul>
 </div>
